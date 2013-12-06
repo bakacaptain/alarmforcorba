@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+C:\Study\Git\alarmforcorba\.metadata\.plugins\org.eclipse.jdt.core
+1273639549.index
+3603162078.index
+892929381.index
