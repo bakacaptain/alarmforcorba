@@ -1,4 +1,2 @@
-.metadata/*
-HospitalClient/bin/*
-HospitalServer/bin/*
-Methods/bin/*
+.metadata/
+bin/
