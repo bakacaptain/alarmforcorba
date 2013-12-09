@@ -3,6 +3,7 @@
 	<name>HospitalServer</name>
 	<comment></comment>
 	<projects>
+		<project>Methods</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
