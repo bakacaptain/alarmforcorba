@@ -1,9 +1,0 @@
-// IDL
-module ERCare {
-	interface SubmitData{
-		oneway void SBPData(string patientID, long value);
-		oneway void DBPData(string PatientID, long value);
-		oneway void HRPData(string PatientID, long value);
-		oneway void SatData(string PatientID, long value);
-	};		
-};
