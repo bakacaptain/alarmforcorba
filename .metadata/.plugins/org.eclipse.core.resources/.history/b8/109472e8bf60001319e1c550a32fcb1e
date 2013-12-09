@@ -1,0 +1,9 @@
+
+public class Patient {
+	String PatientID;
+	ThresholdPair SBPThresholds;
+	ThresholdPair DBPThresholds;
+	ThresholdPair HRPThresholds;
+	ThresholdPair SatThresholds;
+	int 
+}

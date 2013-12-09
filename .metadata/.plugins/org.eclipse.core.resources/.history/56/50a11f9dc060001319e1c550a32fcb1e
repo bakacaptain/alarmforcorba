@@ -1,0 +1,14 @@
+import java.util.List;
+
+
+public class Patient {
+	String PatientID;
+	ThresholdPair SBPThresholds;
+	ThresholdPair DBPThresholds;
+	ThresholdPair HRPThresholds;
+	ThresholdPair SatThresholds;
+	List<Integer> SBPValues;
+	List<Integer> DBPValues;
+	List<Integer> HRPValues;
+	List<Integer> SatValues;
+}

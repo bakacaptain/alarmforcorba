@@ -1,0 +1,30 @@
+import java.util.List;
+
+
+public class DataStore {
+	List<Patient> patients;
+	private static DataStore singletonObject;
+	// Note that the constructor is private
+	private DataStore() {
+		// Optional Code
+	}
+	
+	public Patient getPatient(String patientID)
+	{
+		for(Patient p : patients)
+		{
+			if(p.getPatientID().equalsIgnoreCase(patientID))
+			{
+				return p;
+			}
+		}
+		return null;
+	}
+	
+	public static DataStore getSingletonObject() {
+		if (singletonObject == null) {
+			singletonObject = new DataStore();
+		}
+		return singletonObject;
+	}
+}

@@ -3,6 +3,7 @@ import ERCare.SubmitDataPOA;
 
 public class SubmitDataImpl extends SubmitDataPOA {
 
+	
 	@Override
 	public void SBPData(String patientID, int value) {
 		// TODO Auto-generated method stub
