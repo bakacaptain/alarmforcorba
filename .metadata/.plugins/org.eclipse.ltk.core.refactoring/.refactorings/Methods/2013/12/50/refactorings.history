@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Methods/src/SBPMessage&apos; to &apos;SBPMessage.idl&apos;" description="Rename resource &apos;SBPMessage&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/SBPMessage" name="SBPMessage.idl" stamp="1386582700386" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Methods/src/SBPMessage.idl&apos; to &apos;Messages.idl&apos;" description="Rename resource &apos;SBPMessage.idl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/SBPMessage.idl" name="Messages.idl" stamp="1386582979146" updateReferences="true"/>
+</session>

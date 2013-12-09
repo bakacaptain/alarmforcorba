@@ -1,0 +1,17 @@
+// IDL
+module ERCare {
+	
+	typedef sequence<long> PatientValuesStructures;
+	
+	interface SubmitData{
+		oneway void SBPData(in string patientID, in long value);
+		oneway void DBPData(in string PatientID, in long value);
+		oneway void HRPData(in string PatientID, in long value);
+		oneway void SatData(in string PatientID, in long value);
+		oneway void SetMinThreshold(in string patientID, in string dataType, in long value);
+		oneway void SetMaxThreshold(in string patientID, in string dataType, in long value);
+		PatientValuesStructure GetValues(in string patientID, in string dataType);
+	};
+	
+		
+};
