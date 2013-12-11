@@ -1,9 +1,0 @@
-// IDL
-module ERCare {
-	struct PatientValuesStructure {
-		long countOfValues;
-		string PatID;
-	};
-	
-	typedef sequence<PatientValuesStructure> PatientValuesStructures;
-};

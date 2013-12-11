@@ -1,7 +1,0 @@
-package HospitalServer;
-import ERCare.SubmitDataPOA;
-
-
-public class SubmitDataImpl extends SubmitDataPOA {
-
-}

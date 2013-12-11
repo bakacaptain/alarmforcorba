@@ -1,7 +1,0 @@
-module Hospital
-{
-	interface DeathMessage
-	{
-		unsigned long PatID
-	};
-};
